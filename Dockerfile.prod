@@ -1,0 +1,12 @@
+FROM node:18-alpine as dist
+WORKDIR /app
+COPY package.json .
+RUN corepack enable \
+    && yarn set version stable \
+    && yarn install \
+    && rm -rf node_modules/
+COPY . .
+RUN yarn run build
+
+FROM nginx:stable
+COPY --from=dist /app/dist /usr/share/nginx/html

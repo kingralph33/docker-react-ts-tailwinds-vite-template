@@ -20,7 +20,7 @@ function App() {
 				</a>
 			</div>
 			<h1 className='text-8xl'>Vite + React</h1>
-			<p>{`Hello ${process.env.REACT_APP_NAME}`}</p>
+			<p>{`Hello ${import.meta.env.VITE_USER_NAME}`}</p>
 			<div className='card'>
 				<button onClick={() => setCount((count) => count + 1)}>
 					count is {count}
