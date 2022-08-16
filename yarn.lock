@@ -2769,7 +2769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.0.6":
+"@types/react-dom@npm:^18.0.0, @types/react-dom@npm:latest":
   version: 18.0.6
   resolution: "@types/react-dom@npm:18.0.6"
   dependencies:
@@ -2778,7 +2778,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.17":
+"@types/react@npm:*, @types/react@npm:latest":
   version: 18.0.17
   resolution: "@types/react@npm:18.0.17"
   dependencies:
@@ -4118,9 +4118,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001373":
-  version: 1.0.30001376
-  resolution: "caniuse-lite@npm:1.0.30001376"
-  checksum: bbb9e8f6d7430b3af8e03e03728637eb765feb6d591612b178f8e416db9098690fdefda00d741f21dc5297bc9aead51f4059769f3d19b15c2447eb818f993ce5
+  version: 1.0.30001377
+  resolution: "caniuse-lite@npm:1.0.30001377"
+  checksum: bd42fa4255f30df914bcef846412c2710e032dfd43f5861753befbd45244574a8c281147247a57c11b19684c8516e3ef731b45bc12b1adfdad13b62f548b23fb
   languageName: node
   linkType: hard
 
@@ -5227,9 +5227,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.202":
-  version: 1.4.219
-  resolution: "electron-to-chromium@npm:1.4.219"
-  checksum: c743284c73a1c01fb845909d59fdbe86c8c3c0053a8c37a3c7e98521220434d28c2c5a3f540a154033f62477e2df3d85657ecec11a44c2c648879008af84378c
+  version: 1.4.221
+  resolution: "electron-to-chromium@npm:1.4.221"
+  checksum: 89351f4f360ed3b9b79b9ee7c59884e9e7ca7fc6680640606492d8364139631bcb22b062c96e4d540eb77116900d8133a96f327d99572bc9681dba47a5d07373
   languageName: node
   linkType: hard
 
@@ -10575,7 +10575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.2.0":
+"react-dom@npm:latest":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -10696,7 +10696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.2.0":
+"react@npm:latest":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -12424,8 +12424,8 @@ __metadata:
     "@testing-library/react": ^13.3.0
     "@testing-library/user-event": ^14.4.3
     "@types/node": ^18.7.5
-    "@types/react": ^18.0.17
-    "@types/react-dom": ^18.0.6
+    "@types/react": latest
+    "@types/react-dom": latest
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@vitejs/plugin-react": ^2.0.1
     autoprefixer: ^10.4.8
@@ -12440,8 +12440,8 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     postcss: ^8.4.16
     prettier: 2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
+    react: latest
+    react-dom: latest
     react-scripts: ^5.0.1
     tailwindcss: ^3.1.8
     typescript: "*"
