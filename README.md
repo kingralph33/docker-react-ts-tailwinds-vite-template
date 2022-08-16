@@ -1,5 +1,5 @@
-### Template for React, Typescript, Tailwinds CSS, and Vite projects
+### Template for Docker, React, Typescript, Tailwinds CSS, and Vite projects
 
 ---
 
--   Use Yarn v2 PnP
+-   Using Yarn v2 PnP
