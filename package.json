@@ -42,11 +42,11 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "postcss": "^8.4.16",
+    "postcss": "^8.5.23",
     "prettier": "2.7.1",
     "tailwindcss": "^3.1.8",
     "typescript": "*",
-    "vite": "^3.0.7"
+    "vite": "^6.4.3"
   },
   "packageManager": "yarn@3.2.2"
 }
